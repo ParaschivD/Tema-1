@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class NumereNaturale {
+    public static void main(String[] args) {
+        int i, j;
+        int array[] = new int[6];
+        Scanner scan = new Scanner(System.in);
+        for (i = 1;i<array.length; i++) {
+            array[i] = scan.nextInt();
+        }
+        for (j = 1;j<array.length; j++)
+            System.out.println(array[j]);
+        }
+        }
